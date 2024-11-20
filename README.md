@@ -4,17 +4,32 @@ Un sistema de clasificación de animales ssgún sus caracteríticas (tamaño, pe
 
 ### Requisitos
 
-* Python
-* Prolog
-* Visual Studio Code
+- Windows 7 o posterior
+- MacOS
+- Visual Studio Code
+- Python
+- Prolog
+
+## Instalación de dependencias
+
+Para el funcionamiento de la aplicación se necesita la siguiente dependencia, ingresa el comando en la terminal
+`pip install pyswip`
+
+Esta dependencia maneja la comunicación entre los archivos prolog (.pl) y python. Asegurarse de que al inicio del archivo se importen las siguientes dependencias.
+
+```
+import tkinter as tk
+from tkinter import ttk
+from pyswip import Prolog
+```
 
 ### Link de las herramientas
 
-[Prolog](https://www.swi-prolog.org/download/stable)
-[Python](https://www.python.org/downloads/)
-[VSCode](https://code.visualstudio.com/)
+- [Prolog](https://www.swi-prolog.org/download/stable)
+- [Python](https://www.python.org/downloads/)
+- [VSCode](https://code.visualstudio.com/)
 
 ### Instalación
 
-* [Prolog](https://youtu.be/WagksXYJXPY?si=tzG4nwla0GEdh2PK)
-* [Python](https://youtu.be/i6j8jT_OdEU?si=2ObxQmCHgg-Uz-_S)
+- [Prolog](https://youtu.be/WagksXYJXPY?si=tzG4nwla0GEdh2PK)
+- [Python](https://youtu.be/i6j8jT_OdEU?si=2ObxQmCHgg-Uz-_S)
